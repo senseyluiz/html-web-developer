@@ -9,7 +9,7 @@
 
 body{
 	width: 100%;
-	min-width: 100vh;
+	min-width: 80vh;
 	background-color: rgb(243, 243, 243);
 	margin: 0;
 	padding: 0;
@@ -22,7 +22,7 @@ body{
 	align-items: center;
 	justify-content: start;
 	width: 60%;
-	height: 100vh;
+	height: 100vh;	
 }
 
 .instagram-phone{
@@ -121,11 +121,12 @@ body{
 }
 
 .app-download:nth-child(1){
-	background-image: url('img/apple-button.png');
+	background-image: url('https://www.vistasoft.com.br/wp-content/uploads/2019/06/disponivel-na-app-store-botao-640x190.png');
+
 }
 
 .app-download:nth-child(2){
-	background-image: url('./img/google-play-button.png');
+	background-image: url('https://logodownload.org/wp-content/uploads/2017/04/disponivel-google-play-badge.png');
 }
 
 @media (max-width: 1024px){
@@ -137,7 +138,7 @@ body{
 @media (max-width: 650px){
 
 	body{
-		background-color: #fff;
+		background-color: #fff;		
 	}
 
 	.intagram-wrap{
